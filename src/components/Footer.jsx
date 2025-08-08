@@ -40,6 +40,7 @@ function Footer() {
       {/* Bottom */}
       <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-800 pt-6">
         © {new Date().getFullYear()} BoostUp Gym. All rights reserved.
+        <p>Created by <a className='text-red-500' href="https://www.aumtech.solutions">AumTech Solutions</a></p>
       </div>
     </footer>
     </>

@@ -1,6 +1,6 @@
 import React from 'react';
 import RollingGallery from '../animation/RollingGallery/RollingGallery';
-import ScrollReveal from './../animation/ScrollReveal/ScrollReveal';
+
 function Hero() {
   return (
     <>

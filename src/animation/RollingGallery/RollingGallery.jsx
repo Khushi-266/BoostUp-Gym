@@ -7,16 +7,16 @@ import {
 } from "framer-motion";
 
 const IMGS = [
-  "public/images/gym1.jpg",
-  "public/images/gym2.jpg",
-  "public/images/gym3.jpg",
-  "public/images/gym4.jpg",
-  "public/images/gym5.jpg",
-  "public/images/gym6.jpg",
-  "public/images/gym7.jpg",
-  "public/images/gym8.jpg",
-  "public/images/gym9.jpg",
-  "public/images/gym10.jpg",
+  "/images/gym1.jpg",
+  "/images/gym2.jpg",
+  "/images/gym3.jpg",
+  "/images/gym4.jpg",
+  "/images/gym5.jpg",
+  "/images/gym6.jpg",
+  "/images/gym7.jpg",
+  "/images/gym8.jpg",
+  "/images/gym9.jpg",
+  "/images/gym10.jpg",
   
 ];
 
