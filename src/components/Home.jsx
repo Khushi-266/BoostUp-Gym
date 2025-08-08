@@ -1,7 +1,7 @@
 import React from 'react';
 import RollingGallery from '../animation/RollingGallery/RollingGallery';
 
-function Hero() {
+function Home() {
   return (
     <>
     <section id='home' className="relative h-screen bg-cover bg-center bg-no-repeat overflow-hidden">
@@ -66,7 +66,8 @@ function Hero() {
       ].map((service, index) => (
         <div key={index} className="p-4 lg:w-1/4 md:w-1/2 w-full">
           <div className="h-full  hover:scale-105 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center text-center">
-            <img
+            < img 
+            loading='lazy'
               alt={service.name}
               className="w-full h-56 object-cover object-center"
               src={service.img}
@@ -96,7 +97,7 @@ function Hero() {
         <div className="ml-6">
           Facilities That <span className="text-red-600">Power</span> Your Progress
         </div>
-        <span className="text-5xl text-red-600 absolute -bottom-4 left-50 select-none">”</span>
+        <span className="text-5xl text-red-600 absolute -bottom-4 right-10 select-none">”</span>
       </blockquote>
     </div>
 
@@ -193,4 +194,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Home;

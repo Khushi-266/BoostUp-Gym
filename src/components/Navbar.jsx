@@ -34,23 +34,39 @@ function Navbar() {
         </div>
 
         <nav
-          className={`${
-            isOpen ? 'flex' : 'hidden'
-          } flex-col md:flex md:flex-row md:items-center w-full md:w-auto mt-4 md:mt-0 gap-6 transition-all duration-300 ease-in-out`}
+          className={`${isOpen ? 'flex' : 'hidden'
+            } flex-col md:flex md:flex-row md:items-center w-full md:w-auto mt-4 md:mt-0 gap-6 transition-all duration-300 ease-in-out`}
         >
-          <a href="#home" className="text-base hover:text-red-500 transition-colors duration-200 font-medium">
+          <a
+            href="#home"
+            onClick={() => setIsOpen(false)}
+            className="text-base hover:text-red-500 transition-colors duration-200 font-medium"
+          >
             Home
           </a>
-          <a href="#services" className="text-base hover:text-red-500 transition-colors duration-200 font-medium">
-           Services
+          <a
+            href="#services"
+            onClick={() => setIsOpen(false)}
+            className="text-base hover:text-red-500 transition-colors duration-200 font-medium"
+          >
+            Services
           </a>
-          <a href="#facilities" className="text-base hover:text-red-500 transition-colors duration-200 font-medium">
+          <a
+            href="#facilities"
+            onClick={() => setIsOpen(false)}
+            className="text-base hover:text-red-500 transition-colors duration-200 font-medium"
+          >
             Facilities
           </a>
-          <a href="#contact" className="text-base hover:text-red-500 transition-colors duration-200 font-medium">
+          <a
+            href="#contact"
+            onClick={() => setIsOpen(false)}
+            className="text-base hover:text-red-500 transition-colors duration-200 font-medium"
+          >
             Contact
           </a>
         </nav>
+
       </div>
     </header>
   );
